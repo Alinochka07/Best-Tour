@@ -1,0 +1,95 @@
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-left: 0.3px solid grey;
+    background-color: white;
+}
+
+
+.sidenav a {
+    padding: 8px 8px 0 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+    display: flex;
+    transition: 0.3s ease;
+}
+.sidenav #signin {
+    margin-top: 30px;
+}
+  
+.sidenav a:hover, button#sign_out:hover, button.languagebtn:hover  {
+    color: #ff5100;
+    font-weight: bold;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 11px;
+    right: 13px;
+    font-size: 20px;
+    margin-left: 50px;
+    background: none;
+    color: grey;
+    border: none;
+}
+
+button#sign_out {
+    border: none;
+    background: none;
+    padding-left: 33px;
+    color: grey;
+}
+
+#hello_msg {
+    padding: 30px 0 30px 33px;
+}
+button.languagebtn, button.settings {
+    color: grey;
+    padding: 6px 0 0 31px;
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+    margin-right: 5px;
+}
+
+.card.card-body {
+    border: none;
+    line-height: 1;
+    font-weight: normal;
+}
+button.settings {
+    border: none;
+    background: none;
+}
+.card.card-body > a {
+    padding-bottom: 5px;
+}
+
+a#userCheck, a#userX, a#userPlus, a#aboutUs, a#contacts, a#faq, a#help {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    height: 55px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 0 22px;
+}
+
+button.accordion-button.collapsed {
+    color: grey;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 16px;}
+  }

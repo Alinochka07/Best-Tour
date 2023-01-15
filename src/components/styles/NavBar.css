@@ -1,0 +1,156 @@
+.header {
+    background: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: -1px -4px 20px 0px #afb0b0;
+    z-index: 9;
+}
+
+nav.topnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: white;
+    width: 100%;
+}
+
+
+.languagebtn {
+    border: none;
+    background: transparent;
+    padding-left: 8px
+}
+
+img#main-logo {
+    padding: 7px;
+}
+
+
+.left-side-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo-text {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+a#home {
+    text-decoration: none;
+}
+
+p#best-tour, p#travel-agency {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+p#best-tour {
+    margin-bottom: 0px;
+    padding-top: 17px;
+    color: #076fdd;
+    
+}
+p#travel-agency {
+    color: #f86839;
+    font-weight: 600;
+}
+
+.header_menu_tabs {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.right-side-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-right: 10px;
+    align-items: center;
+}
+
+
+.right-side-menu > span:nth-child(3) {
+    border-right: none;
+}
+
+
+button.russian, button.kyrgyz {
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+button.russian {
+    padding-left: 5px;
+}
+
+button.kyrgyz {
+    padding-right: 5px;
+    margin-left: -33px;
+}
+
+.menu {
+    margin: 14px 0;
+    background: #f8673c;
+    padding: 9px 18px;
+    border-radius: 23px;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+button#dropdownMenuButton {
+    color: #6a6d6d;
+    line-height: 2.2;
+}
+
+.dropdown-item {
+    font-size: 13px;
+}
+
+.dropdown-menu.lng.show {
+    border-radius: 10px;
+    margin-left: -111px;
+    box-shadow: -1px 2px 15px 0px #b0acac;
+    margin-top: 21px;
+  
+}
+
+.btn.btn-link, .btn.btn-transparent {
+    box-shadow: none;
+    
+}
+button.login {
+    background: none;
+    border: none;
+}
+
+.accountbtn {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+span.bi.bi-globe:hover, button.languagebtn:hover {
+    color: #ff5100;
+}
+
+button#sidenavbar {
+    line-height: 2.3;
+    color: #f8673c;
+    padding-top: 6px;
+}

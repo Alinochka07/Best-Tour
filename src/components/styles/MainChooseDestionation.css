@@ -1,0 +1,85 @@
+.choose-destination {
+    width: 75%;
+    /* height: 0; */
+    display: flex;
+    margin-top: -9%;
+    background: white;
+    box-shadow: 2px 2px 20px #b3abab;
+    justify-content: center;
+}
+
+
+table.table {
+    border: 1px solid white;
+    width: 97%;
+    text-align: center;
+    margin: 10px;
+}
+
+.table > thead {
+    vertical-align: bottom;
+    text-align: center;
+    color: #ff5100;
+}
+
+.thead {
+    background: white;
+}
+
+button.btn.btn-light.dates, .btn.btn-light, .btn-light {
+    box-shadow: none;
+    background: transparent;
+    border: 1px solid #ced4d9;
+    border-radius: 4px;
+    width: 164px;
+    height: 38px;
+    color: #495157;
+    text-align: center;
+    line-height: 2.3;
+    margin-top: 1px;
+}
+
+
+button.btn.btn-light.dates:hover {
+    color: #ff5100;
+}
+
+/* p#close-calendar {
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: right;
+    cursor: pointer;
+    padding-right: 8px;
+    padding-bottom: 4px;
+} */
+
+/* div#calendar-window {
+    box-shadow: 1px 0px 20px #c1b9b9;
+    border-radius: 5px;
+} */
+
+.btn.tours-search {
+    cursor: pointer;
+}
+
+.css-b62m3t-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 380px;
+}
+
+select.select_option {
+    width: 333px;
+    height: 39px;
+    border: 1px solid #ced4d8;
+    border-radius: 4px;
+    color: #4a5157;
+    text-align: center;
+}
+.display_result {
+    margin-top: 30px;
+}
+
+th#button-th {
+    width: 29%;
+}

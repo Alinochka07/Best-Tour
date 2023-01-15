@@ -1,0 +1,10 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    /* background-color: #d3fff3; */
+    background-image: url('./media/banners/best-banner.jpg');
+    width: 100%;
+}

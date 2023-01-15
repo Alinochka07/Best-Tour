@@ -1,0 +1,9 @@
+.RedButton {
+    background: #ff5100;
+    height: 36px;
+    border: none;
+    /* box-shadow: 2px 2px 20px 0 #f1f5f6; */
+    color: #fcfbfb;
+    font-size: 16px;
+    border-radius: 3px;
+}

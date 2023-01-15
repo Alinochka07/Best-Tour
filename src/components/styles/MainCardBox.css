@@ -1,0 +1,30 @@
+.boxcard {
+    width: 240px;
+    height: 240px;
+    background: white;
+    display: inline-block;
+    margin: 100px 15px 100px 15px;
+    padding: 35px 25px 0 25px;
+    cursor: pointer;
+    box-shadow: 1px 1px 20px #cccbcb;
+    text-align: center;
+}
+
+.boxcard:hover {
+    background: rgb(221, 238, 243);
+}
+
+.boxcard > h5 {
+    font-size: 16px;
+}
+.boxcard > h2:hover {
+    color: #ffa000;
+}
+.boxcard > p {
+    font-size: 13px;
+    color: gray;
+}
+
+.boxcard > img {
+    margin-bottom: 10px;
+}

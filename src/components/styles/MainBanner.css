@@ -1,0 +1,26 @@
+.myheader {
+    display: inline-block;
+    height: 640px;
+    width: 1200px;
+    text-align: left;
+}
+
+.myheader #h1, #h1_1 {
+    font-family: 'Helvetica Neue';
+    color: white;
+    font-size: 60px;
+    padding: 0 0 20px 60px;
+}
+.myheader #h1 {
+    padding-top: 10%; 
+}
+
+.myheader a> button {
+    width: 410px;
+    margin: 70px 0 0 60px;
+}
+.myheader > img {
+    height: 100%;
+    width: 600px;
+    margin: -25% 0 0 50%;
+}
