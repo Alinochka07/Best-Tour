@@ -1,0 +1,123 @@
+div.footer-insta-block {
+    width: 1200px;
+    height: 350px;
+    display: inline-flex;
+}
+
+.footer-insta-block > h3 {
+    padding: 135px 0 145px 40px;
+    width: 275px;
+    text-align: left;
+    position: absolute;
+}
+
+.social-icons {
+    position: absolute;
+    padding: 210px 40px;
+}
+span.bi.bi-instagram, span.bi.bi-facebook, span.bi.bi-telegram {
+    font-size: 35px;
+    padding-right: 20px;
+}
+
+span.bi.bi-instagram {
+    color: #f339b9;
+}
+span.bi.bi-facebook {
+    color: #0030ff;
+}
+span.bi.bi-telegram {
+    color: #398af3;
+}
+
+.footer {
+    margin-top: 58px;
+}
+.best-footer {
+    width: 1200px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: -6px;
+    background: white;
+}
+.contact-footer {
+    margin-left: 20px;
+    width: 300px;
+    padding-right: 20px;
+}
+.contact-footer p:nth-child(1) {
+    padding-top: 7px;
+}
+p.full-text {
+    font-size: 13px;
+    color: grey;
+}
+
+.bi.bi-telephone-outbound-fill, .bi.bi-envelope-fill, .bi.bi-pin-map-fill {
+    color: #ff5100;
+    font-size: 17px;
+    padding-right: 10px;
+    line-height: 1;
+}
+.quick-links ul li a, .support ul li a {
+    text-decoration: none;
+    color: gray;
+}
+.quick-links ul li a:hover, .support ul li a:hover {
+    text-decoration: none;
+    color: #ff5100;
+    font-weight: bolder;
+}
+.quick-links ul li, .support ul li {
+    font-size: 13px;
+    color: grey;
+    list-style: none;
+    margin-left: -31px;
+    padding-bottom: 17px;
+}
+.quick-links > h6, .support > h6, .newsletter > h6 {
+    padding-bottom: 17px;
+    padding-top: 30px;
+}
+.quick-links ul, .support ul {
+    padding-top: 5px;
+}
+.quick-links {
+    width: 200px;
+}
+.support {
+    width: 265px;
+}
+.newsletter {
+    width: 320px;
+}
+button#newsletter_btn {
+    margin-top: 20px;
+    width: 200px;
+}
+input.newsletter_input {
+    border: 0.5px solid #ff5100;
+    height: 31px;
+    border-radius: 25px;
+    font-size: 13px;
+    width: 296px;
+    font-style: inherit;
+    padding-left: 15px;
+}
+a#email, #location, #phone_number {
+    text-decoration: none;
+    color: gray;
+}
+a#email:hover, #location:hover, #phone_number:hover {
+    text-decoration: none;
+    color: #ff5100;
+    font-weight: bolder;
+}
+p#copyright {
+    font-size: 11px;
+}

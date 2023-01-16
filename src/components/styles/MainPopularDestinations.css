@@ -79,12 +79,10 @@ span.reviews {
 .reviews button.btn.btn-link {
     padding-top: 0;
 }
-button.btn.btn-outline.reviews-check-out {
-    background: #ff5100;
-    height: 33px;
-    color: white;
+button#reviews-check-out {
     padding: 0 12px;
     margin-left: 7px;
+    width: 35px;
 }
 .reviews span {
     color: red;
@@ -98,6 +96,6 @@ button.btn.btn-outline.reviews-check-out {
     flex-wrap: wrap;
     margin-top: 95px;
 }
-.btn-popular {
-    width: 150px;
+.all-popular-destinations > button {
+    width: 285px;
 }

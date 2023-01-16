@@ -34,7 +34,7 @@ const MainPopularDestinations = (props) => {
                                                             <span className="bi bi-star-fill"></span>
                                                         </button>
                                                         50 отзывов
-                                                        <button className="btn btn-outline reviews-check-out">+</button>
+                                                        <RedButton id="reviews-check-out">+</RedButton>
                                                     </span>
                                                     
                                                 </div>
